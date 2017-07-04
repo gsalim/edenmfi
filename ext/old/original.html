@@ -1,0 +1,329 @@
+<!--http://www.bmpia.org/eden/#-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>APP Less, CARD Less & CASH Less Payment System|EDEN MFi</title>
+		<link type="text/css" rel="stylesheet" href="css/custom.css" media="screen"/>
+		<link type="text/css" rel="stylesheet" href="css/responsive.css" media="screen"/>
+		<link rel="stylesheet" href="css/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<section id="top">
+		
+			<div class="w3-sidebar w3-bar-block w3-animate-right w3-light-gray" style="display:none;right:0;z-index:5;" id="mySidebar">
+			  <button class="w3-bar-item w3-button w3-xlarge w3-text-black w3-margin-bottom" onclick="w3_close()">Close &times;</button>
+				<a href="#" class="w3-bar-item w3-button">Home</a>
+				  <button class="w3-bar-item w3-button" onclick="myAccFunc()">Sign Up&nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+				  <div id="demoAcc" class="w3-hide w3-card-4 w3-animate-zoom w3-margin-left" >
+					<a href="#" class="w3-bar-item w3-button">Individual</a>
+					<a href="#" class="w3-bar-item w3-button">Agents</a>
+					<a href="#" class="w3-bar-item w3-button">Enterprise</a>
+					<a href="#" class="w3-bar-item w3-button">Banks</a>
+				  </div>
+				  
+					<button class="w3-bar-item w3-button" onclick="myDropFunc()">Go Green&nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+					<div id="demoDrop" class="w3-hide w3-card-4 w3-animate-zoom w3-margin-left">
+					  <button onclick="myFunction3('Demo4')" class="w3-bar-item w3-button">Benefits &nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+					  <div id="Demo4" class="w3-hide w3-card-4 w3-animate-zoom w3-margin-left">
+						<a href="#" class="w3-bar-item w3-button">Cash In</a>
+						<div class="w3-dropdown-hover">
+							<button class="w3-bar-item w3-button">Cash Out &nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+							<div class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom w3-margin-left">
+							  <a href="#" class="w3-bar-item w3-button">From Agent</a>
+							</div>
+						</div>
+						<a href="#" class="w3-bar-item w3-button">Send Money</a>
+						<button onclick="myFunction4('Demo5')" class="w3-bar-item w3-button">Payment &nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+						<div id="Demo5" class="w3-card-4 w3-animate-zoom w3-hide w3-margin-left">
+						  <a href="#" class="w3-bar-item w3-button">Store Payments</a>
+						  <a href="#" class="w3-bar-item w3-button">Educational Institute</a>
+						  <a href="#" class="w3-bar-item w3-button">NGO</a>
+						  <a href="#" class="w3-bar-item w3-button">Restaurant and Dinning</a>
+						  <a href="#" class="w3-bar-item w3-button">Hotels</a>
+						  <a href="#" class="w3-bar-item w3-button">Travel Agents</a>
+						  <a href="#" class="w3-bar-item w3-button">Internet Provider</a>
+						  <a href="#" class="w3-bar-item w3-button">Utility Bill Pay</a>
+						</div>
+						<a href="#" class="w3-bar-item w3-button">Buy Airtime</a>
+						<a href="#" class="w3-bar-item w3-button">Remittance</a>
+						<a href="#" class="w3-bar-item w3-button">Interest on Savings</a>
+						<a href="#" class="w3-bar-item w3-button">Train Ticketing</a>
+						<a href="#" class="w3-bar-item w3-button">Google Play</a>
+						<a href="#" class="w3-bar-item w3-button">I-Tunes</a>
+						<a href="#" class="w3-bar-item w3-button">City Corporation Bill</a>
+						<a href="#" class="w3-bar-item w3-button">Bus Ticket</a>
+					  </div>
+					  <a href="#" class="w3-bar-item w3-button">Overview</a>
+					  <a href="#" class="w3-bar-item w3-button">Offers</a>
+					  <a href="#" class="w3-bar-item w3-button">Our Fees & Charges</a>
+					  <a href="#" class="w3-bar-item w3-button">Refer a Friend & Reward</a>
+					</div>
+					
+				  
+				  <button onclick="myFunction('Demo1')" class="w3-button w3-bar-item">Other Product&nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+					<div id="Demo1" class="w3-hide w3-card-4 w3-animate-zoom w3-margin-left">
+					  <button onclick="myFunction1('Demo2')" class="w3-bar-item w3-button">Loan Products &nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+					  <div id="Demo2" class="w3-hide w3-card-4 w3-animate-zoom w3-margin-left">
+						<a href="#" class="w3-bar-item w3-button">Loan For Women</a>
+						<a href="#" class="w3-bar-item w3-button">Small Enterprise Loan</a>
+						<a href="#" class="w3-bar-item w3-button">Agricultural Loan</a>
+						<a href="#" class="w3-bar-item w3-button">Poverty Elevation Loan</a>
+						<a href="#" class="w3-bar-item w3-button">Youth Loan</a>
+						<a href="#" class="w3-bar-item w3-button">Rural Micro Finance</a>
+						<a href="#" class="w3-bar-item w3-button">Urban Micro Finance</a>
+						<a href="#" class="w3-bar-item w3-button">Seasonal Micro Finance</a>
+						<a href="#" class="w3-bar-item w3-button">Disaster Management Micro Finance</a>
+						<a href="#" class="w3-bar-item w3-button">Loan For Digitalization</a>
+						<a href="#" class="w3-bar-item w3-button">Salary Against Loan</a>
+						<a href="#" class="w3-bar-item w3-button">Migration Loan</a>
+					  </div>
+					  <button onclick="myFunction2('Demo3')" class="w3-bar-item w3-button">Savings Products&nbsp;<i class="fa fa-plus w3-tiny"></i></button>
+					  <div id="Demo3" class="w3-hide w3-card-4 w3-animate-zoom w3-margin-left">
+						<a href="#" class="w3-bar-item w3-button">Normal Savings Account</a>
+						<a href="#" class="w3-bar-item w3-button">DPS</a>
+						<a href="#" class="w3-bar-item w3-button">Capital Buildup Savings Fund</a>
+						<a href="#" class="w3-bar-item w3-button">FDR</a>
+					  </div>
+					  <a href="#" class="w3-bar-item w3-button">Insurance Products</a>
+					  <a href="#" class="w3-bar-item w3-button">Education Support System</a>
+					  <a href="#" class="w3-bar-item w3-button">Capacity Building on Financial Education & Client Protection</a>
+					</div>
+			  
+			  <a href="#" class="w3-bar-item w3-button">Jobs</a>
+			  <a href="#" class="w3-bar-item w3-button">Contact Us</a>
+			</div>
+			
+			<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+			
+            <div class="" style="background-image: url('images/banner_bg.png');">
+				<div class="menu w3-bar">
+					<div class="logo w3-left w3-container w3-padding" style="width:20%;">
+						<a href="#"><img src="images/edenmfi_logo.png" alt="logo" /></a>
+					</div>
+					<div id="main" class="w3-rest w3-container w3-main">
+						<div class="" style="width:90%;">
+							<h3 class="w3-center w3-hide-small">APP Less, CARD Less & CASH Less Payment System</h3>
+						</div>
+						<div class="menu-btn" style="width:10%;">
+							<button class="w3-button w3-display-topright w3-border-left" onclick="w3_open()" style="">&#9776;</button>
+						</div>
+					</div>
+				</div>
+                
+				<div class="banner w3-container w3-padding-64">
+					<div class="w3-half">
+						<img src="images/banner_image.png" alt="payment-system" class="w3-margin" />
+					</div>
+					<div class="w3-half top-benefit">
+						<h3 class="">Go Green(GG):</h3>
+						<ul class="w3-text-white" style="list-style:none;">
+							<li class=""><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; No need to carry cash</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; No need to carry wallets</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; No need to carry credit or debit cards</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; No one can get credit card details</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; One can purchase via mobile messengers</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; Easily pay for services and low value items</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; High value transactions secured with alternate channel verification (two way verification method)</li>
+							<li><span><i class="fa fa-check w3-text-red" aria-hidden="true"></i></span>&nbsp; One can rate and velocity limits enforceable</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		
+		<section id="service">
+			<div class="w3-row row-item">
+				<h2 class="w3-center">Free Money Transfer</h2>
+				<div class="srvice-item w3-third w3-container w3-center w3-padding-32">
+					<span><i class="material-icons">lock_outline</i></span>
+					<h2 class="w3-padding-16">CONVENIENCE</h2>
+					<p>Send and receive money, store cards, link bank accounts and pay conveniently anytime and anywhere with your user address and password.</p>
+				</div>
+				<div class="srvice-item w3-third w3-container w3-center w3-padding-32">
+					<span><i class="material-icons">phone_iphone</i></span>
+					<h2 class="w3-padding-16">CONFIDENCE</h2>
+					<p>Your security is a priority. We always keep your payments and personal information safe, and our anti-fraud team protects every transaction.</p>
+				</div>
+				<div class="srvice-item w3-third w3-container w3-center w3-padding-32">
+					<span><i class="material-icons">input</i></span>
+					<h2 class="w3-padding-16">INSTANT</h2>
+					<p>It’s easy for Skrill wallet holders to send and receive money – you just need an email address. And with fees of only 1%, more money arrives.</p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="footer">
+			<div class="w3-container">
+				<div class="w3-threequarter w3-padding-24 bottom-left">
+					<div class="w3-bar bottom-menu">
+					  <a href="#" class="w3-bar-item w3-mobile w3-ripple w3-border-right w3-border-gray">About US</a>
+					  <a href="#" class="w3-bar-item w3-mobile w3-ripple w3-border-right w3-border-gray">Support</a>
+					  <a href="#" class="w3-bar-item w3-mobile w3-ripple w3-border-right w3-border-gray">Career</a>
+					  <a href="#" class="w3-bar-item w3-mobile w3-ripple">Press</a>
+					</div>
+					<div class="w3-bar bottom-condition">
+					  <a href="#" class="w3-bar-item w3-border-right w3-border-gray">&copy; EDEN MFI</a>
+					  <a href="#" class="w3-bar-item w3-border-right w3-border-gray w3-ripple">Tearms & Condition</a>
+					  <a href="#" class="w3-bar-item w3-ripple">Privacy Policy</a>
+					</div>
+					<p>EDEN MFi is authorised by the Financial Conduct Authority under the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.Website design and developed by <a href="http://mateors.com" target="_blank">MATEORS DOT COM</a></p>
+				</div>
+				<div class="w3-quarter w3-padding-24">
+					<div class="powr-by">
+						<p>Powered By:</p>
+						<img src="images/Aurumize New Logo.png" alt="logo" />
+					</div>
+					<div class="w3-container bottom-right">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<i class="fa fa-instagram" aria-hidden="true"></i>
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<div class="scroll-to-top">
+			<div class="scrollup">
+				<i class="fa fa-angle-double-up"></i>
+			</div>
+		</div>
+		
+		
+		<script>
+		//###########    for sidebar      ##############
+		function w3_open() {
+		  document.getElementById("mySidebar").style.display = "block";
+		  document.getElementById("openNav").style.display = 'none';
+		  document.getElementById("myOverlay").style.display = "block";
+		}
+		function w3_close() {
+		  document.getElementById("main").style.marginRight = "0px";
+		  document.getElementById("mySidebar").style.display = "none";
+		  document.getElementById("openNav").style.display = "inline-block";
+		  document.getElementById("myOverlay").style.display = "none";
+		}
+		
+		//##############   for accordian    #########################
+		function myAccFunc() {
+			var x = document.getElementById("demoAcc");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+
+		function myDropFunc() {
+			var x = document.getElementById("demoDrop");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+		
+		function myFunction(id) {
+			var x = document.getElementById(id);
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+		
+		function myFunction1(id) {
+			var x = document.getElementById(id);
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+		
+		function myFunction2(id) {
+			var x = document.getElementById(id);
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+		
+		function myFunction3(id) {
+			var x = document.getElementById(id);
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+		
+		function myFunction4(id) {
+			var x = document.getElementById(id);
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+				x.previousElementSibling.className += " w3-green";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+				x.previousElementSibling.className = 
+				x.previousElementSibling.className.replace(" w3-green", "");
+			}
+		}
+		
+		//############  for menu background change  ############
+		$(window).on('scroll', function (){
+			if ($(window).scrollTop() > 450){
+			  $('.menu').addClass('menu-bg');
+			} else {
+			  $('.menu').removeClass('menu-bg');
+			}
+			});
+			
+			
+		//############    for scroll-top     ####################
+			$(window).scroll(function () {
+	            if ($(this).scrollTop() > 200) {
+	                $('.scrollup').fadeIn();
+	            } else {
+	                $('.scrollup').fadeOut();
+	            }
+	        });
+			
+			$('.scrollup').click(function () {
+	            $("html, body").animate({
+	                scrollTop: 0
+	            }, 600);
+	            return false;
+	        });
+		</script>
+	</body>
+</html>

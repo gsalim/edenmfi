@@ -1,0 +1,32 @@
+{
+    "elements": {
+        "legend": {
+            "attributes": {
+                "class": {}
+            }
+        },
+        "uib-tab": {
+            "attributes": {
+                "heading": {},
+                "index": {}
+            }
+        },
+        "ui-view": {},
+        "uib-tabset": {
+            "attributes": {
+                "active": {},
+                "justified": {},
+                "vertical": {},
+                "type": {}
+            }
+        }
+    },
+    "attributes": {
+        "uib-carousel": {
+            "context": "div"
+        },
+        "ui-sref": {
+            "context": "a"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+/*carousel style goes hare*/
+
+.carousel-inner{
+	.item{
+		&::after{
+			content: "";
+			display: block;
+			height: 100%;
+			width: 100%;
+			background-color: $overlay;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.carousel-caption{
+			bottom: 27%;
+			
+			h1{
+				font-size: 100px;
+				border: 2px solid $text-color;
+				width: 750px;
+				padding: 10px 0;
+				// height: 120px;
+				margin-left: 8.5%;
+				span{
+					color: $active-color;
+				}
+			}
+		}
+	}
+}
+.carousel-indicators{
+	li.active{
+		background-color: $active-color;
+	}
+}

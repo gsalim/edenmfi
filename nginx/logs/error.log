@@ -1,0 +1,4 @@
+2017/06/05 22:57:04 [error] 1036#8696: *3 CreateFile() "D:/Bitnami/nginxstack-1.12.0-0/nginx/html/applications.html" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /applications.html HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2017/06/05 23:09:23 [error] 1036#8696: *13 directory index of "D:/Bitnami/nginxstack-1.12.0-0/nginx/html/webforms/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /webforms/ HTTP/1.1", host: "localhost"
+2017/06/06 00:41:46 [error] 1036#8696: *32 FastCGI sent in stderr: "PHP Parse error:  syntax error, unexpected end of file in D:\Bitnami\nginxstack-1.12.0-0\nginx\html\eden\organization.php on line 54" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /eden/organization.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2017/06/07 14:46:40 [notice] 5564#9260: signal process started

@@ -1,0 +1,11 @@
+<service>
+  <id>nginxstackNginx</id>
+  <name>nginxstackNginx</name>
+  <description></description>
+  <executable>D:/Bitnami/nginxstack-1.12.0-0/nginx\nginx.exe</executable>
+  <logpath>D:/Bitnami/nginxstack-1.12.0-0/nginx\logs</logpath>
+  <logmode>roll</logmode>
+  <depend></depend>
+  <startargument>-p "D:/Bitnami/nginxstack-1.12.0-0/nginx"</startargument>
+  <stopargument>-p "D:/Bitnami/nginxstack-1.12.0-0/nginx" -s stop</stopargument>
+</service>

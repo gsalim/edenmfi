@@ -1,0 +1,161 @@
+/*------------section top---------------------*/
+.menu{
+    position:fixed;
+    top:0;
+    background-color:#fff;
+}
+.menu-bg{
+}
+#main h3{
+    margin:23px 0px;
+}
+.top-benefit{
+    color:#3b9e05;
+}
+.top-benefit h3{
+    margin:40px 0px 0px 40px;
+    /* color:#3b9e05; */
+    color:#fff;
+}
+.top-benefit ul{
+    margin-top:35px;
+}
+.top-benefit ul li{
+    margin-top:10px;
+    font-size:16px;
+    /* color:#3b9e05; */
+    color:#fff;
+}
+@font-face {
+    font-family: 'BAUHS93';
+    src: url('../fonts/BAUHS93.eot');
+    src: local('BAUHS93'), url('../fonts/BAUHS93.woff') format('woff'), url('../fonts/BAUHS93.ttf') format('truetype');
+}
+.menu h3{
+    color:#3b9e05;
+    /* font-family: 'BAUHS93' !important; */
+}
+.menu-btn button{
+    font-size:39.5px;
+}
+#mySidebar{
+    width:300px;
+}
+#mySidebar a{
+    text-decoration:none;
+    font-size:17px;
+    font-weight:700;
+    color:#00458f;
+}
+
+#mySidebar button{
+    font-size:17px;
+    font-weight:700;
+    color:#00458f;
+}
+
+/*-----------------section service------------*/
+#service h2{
+    font-weight:bold;
+    font-family:times new roman,sans-serif;
+    text-transform:uppercase;
+    margin-top:30px;
+}
+.row-item{
+    background-color:#eeeef0;
+}
+.srvice-item i{
+    font-size:150px;
+    /* background-color:#e1e1ed; */
+    padding:50px;
+    border-radius:50%;
+    background-image:url('../images/Green-world-map-ppt-slider.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center center;
+}
+.srvice-item h2{
+    font-weight:bold;
+    font-family:times new roman, sans-serif;
+} 
+.srvice-item p{
+    font-size:17px;
+    letter-spacing:1.5px;
+    color:gray;
+    font-family:times new roman, sans-serif;
+    padding:0px 30px;
+}
+
+
+
+/*-----------section footer----------------*/
+
+.bottom-menu{
+    margin-left:100px;
+}
+.bottom-menu a{
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+    color:gray;
+    font-family:times new roman;
+    margin:10px 10px;
+}
+.bottom-menu a:hover{
+    text-decoration:none;
+}
+.bottom-condition{
+    margin-left:100px;
+}
+.bottom-condition a{
+    text-decoration:none;
+    font-size:14px;
+    color:gray;
+    font-family:times new roman;
+    margin:10px;
+}
+.bottom-condition a:hover{
+    text-decoration:none;
+    background-color:#fff;
+}
+.bottom-left p{
+    margin-left:126px;
+}
+.powr-by p{
+    text-transform:uppercase;
+    font-size:16px;
+    color:gray;
+    font-family:times new roman;
+    margin:0px 0px 0px 25px;
+}
+.powr-by img{
+    margin:10px 0px 10px 25px;
+}
+.bottom-right i{
+    font-size:18px;
+    padding:10px;
+    margin:10px;
+    border-radius:50%;
+    background-color:#eeeef0;
+    cursor:pointer;
+}
+.bottom-right i:hover{
+    background-color:#444;
+    color:#fff;
+}
+
+
+.scrollup{
+    width:50px;
+    height:50px;
+    font-size:30px;
+    color:black;
+    /* background:#87d37c; */
+    background-color:#eeeef0;
+    text-align:center;
+    bottom:15px;
+    right:1px;
+    position:fixed;
+    cursor:pointer;
+    border-radius:20px;
+}

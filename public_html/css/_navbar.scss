@@ -1,0 +1,12 @@
+.navbar-brand{
+	height: auto;
+}
+
+.navbar{
+    .collapse{
+        margin-top: 10px;
+    }
+    // position:fixed;
+	margin-bottom: 0px;
+    background-color: $bg-color;
+}

@@ -1,0 +1,19 @@
+#about {
+    text-align: center;
+    h2 {
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .container>p {
+        width: 600px;
+        text-align: center;
+        margin-left: 22%;
+        margin-bottom: 90px;
+    }
+    .container>.row div {
+        // border: 1px solid $primary-color;
+        i:hover {
+            color: $active-color;
+        }
+    }
+}

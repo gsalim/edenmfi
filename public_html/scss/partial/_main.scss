@@ -1,0 +1,19 @@
+.main{
+    // font-family:'Roboto Condensed',sans-serif;
+    i{
+        font-size:150px;
+        /* background-color:#e1e1ed; */
+        padding:50px;
+        border-radius:50%;
+        background-image:url('../images/Green-world-map-ppt-slider.jpg');
+        background-size:cover;
+        background-attachment:fixed;
+        background-position:center center;
+    }
+    >.container>h2{
+        margin: 40px 40px;
+    }
+    >.container>div>h2{
+        margin: 40px 40px;
+    }
+}

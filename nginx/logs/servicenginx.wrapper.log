@@ -1,0 +1,6 @@
+2017-06-05 22:50:01 - Starting D:/Bitnami/nginxstack-1.12.0-0/nginx\nginx.exe  -p "D:/Bitnami/nginxstack-1.12.0-0/nginx" 
+2017-06-05 22:50:01 - Started 11144
+2017-06-07 14:46:35 - Stopping nginxstackNginx
+2017-06-07 14:46:38 - Started 5564
+2017-06-07 14:46:38 - WaitForProcessToExit 11144+5564
+2017-06-07 14:46:41 - Finished nginxstackNginx

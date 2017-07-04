@@ -1,0 +1,51 @@
+#banner{
+    // https://stackoverflow.com/questions/48474/how-do-i-position-one-image-on-top-of-another-in-html
+    
+    background-image: url('../images/banner_bg.png');
+    margin-top: 0px;
+    color: white;
+
+    .row{
+        margin: 10px 0px 50px 0px;
+    }
+
+    // position: relative;
+    // top: 0;
+    // left: 0;
+    // :after{
+    //     content: '';
+    //     position: absolute;
+    //     width: 20px;
+    //     height: 20px;
+    //     top: 5px;
+    //     left: 5px;
+    //     background-color: red;
+    // }
+    ul{
+        list-style: none;
+        li :nth-child(1){
+            font-size: 30px;
+        }
+        // span{
+        //     font-size: 2em;
+        // }
+        // font-size: 1em;
+
+        i{
+            color: red;
+            font-size: 10px;
+        }
+    }
+
+    // .banner-body-img {
+        // width: 100%;
+        // position: absolute;
+        // top: 50px;
+        // left: 300px;
+    // }
+    // .banner-points {
+    //     position: absolute;
+    //     top: 30px;
+    //     left: 800px;
+    // }
+}

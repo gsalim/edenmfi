@@ -1,0 +1,324 @@
+@font-face {
+  font-family: 'BAUHS93';
+  src: url("../fonts/BAUHS93.eot");
+  src: local("BAUHS93"), url("../fonts/BAUHS93.woff") format("woff"), url("../fonts/BAUHS93.ttf") format("truetype");
+}
+.navbar-brand {
+  height: auto;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  background-color: #fff;
+}
+.navbar .collapse {
+  margin-top: 10px;
+}
+
+#banner {
+  background-image: url("../images/banner_bg.png");
+  margin-top: 0px;
+  color: white;
+}
+#banner .row {
+  margin: 10px 0px 50px 0px;
+}
+#banner ul {
+  list-style: none;
+}
+#banner ul li :nth-child(1) {
+  font-size: 30px;
+}
+#banner ul i {
+  color: red;
+  font-size: 10px;
+}
+
+.main i {
+  font-size: 150px;
+  /* background-color:#e1e1ed; */
+  padding: 50px;
+  border-radius: 50%;
+  background-image: url("../images/Green-world-map-ppt-slider.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.main > .container > h2 {
+  margin: 40px 40px;
+}
+.main > .container > div > h2 {
+  margin: 40px 40px;
+}
+
+/* This is for Footer */
+footer {
+  margin-top: 50px;
+  background-color: lightgrey;
+  color: black;
+  font-family: 'Roboto Condensed',sans-serif;
+}
+footer .footer-col {
+  margin-top: 10px;
+}
+footer .footer-col .logofooter {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  padding-top: 8px;
+}
+footer .footer-col p {
+  font-size: 12px;
+  font-family: 'Roboto Condensed',sans-serif;
+  margin-bottom: 15px;
+}
+footer .footer-col p i {
+  width: 20px;
+  color: #999;
+}
+footer .footer-col ul {
+  list-style-type: none;
+}
+footer .footer-col ul li {
+  float: left;
+}
+footer .footer-col ul li :after {
+  content: " ";
+}
+footer .footer-col ul li i {
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 7px;
+  border-radius: 50%;
+}
+footer .footer-col ul li .linked-in {
+  background-color: #007bb6;
+}
+footer .footer-col ul li .facebook {
+  background-color: #3b5998;
+}
+footer .footer-col ul li .twitter {
+  background-color: #1da1f2;
+}
+footer .footer-col ul li .google {
+  background-color: #f63e28;
+}
+
+.copyright {
+  min-height: 40px;
+  background-color: lightgreen;
+}
+.copyright p {
+  text-align: left;
+  color: black;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.copyright ul {
+  list-style-type: none;
+  float: right;
+  margin-bottom: 0;
+}
+.copyright ul li {
+  float: left;
+  line-height: 40px;
+}
+.copyright ul li :after {
+  content: " ";
+  color: #FFF;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.copyright ul li a {
+  color: black;
+  font-size: 12px;
+}
+
+#inner-view {
+  margin-top: 70px;
+}
+
+.signupIndividual {
+  /*https://newyyz.com/blog/2016/02/09/styling-angularjs-ui-bootstrap-tabs/*/
+  /*Style to make the tabs vertical alignment and content on right*/
+  /*    .nav-tabs{
+          float:left;
+      }
+      .contect-tabs{
+          float:left;
+  }*/
+  /*https://stackoverflow.com/questions/16852484/use-fieldset-legend-with-bootstrap*/
+  /*    .panel-default{
+         width: inherit;
+      }*/
+}
+.signupIndividual h6 {
+  color: blue;
+  margin-top: 20px;
+}
+.signupIndividual .row .col-md-6 .row :nth-child(2) span {
+  min-width: 100px;
+}
+.signupIndividual .row .col-md-6 .row :nth-child(1) input, .signupIndividual .row .col-md-6 .row :nth-child(1) select {
+  min-width: 150px;
+}
+.signupIndividual .input-group {
+  margin-top: 2px;
+}
+.signupIndividual .input-group span {
+  min-width: 140px;
+  text-align: right;
+  height: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.signupIndividual .input-group input, .signupIndividual .input-group select {
+  height: 20px;
+  min-width: 150px;
+}
+.signupIndividual .input-group select {
+  padding: 1px;
+}
+.signupIndividual li a.ng-binding {
+  font-size: 13px;
+  height: 25px;
+  padding-top: 3px;
+  background-color: lightgray;
+  text-decoration: none;
+}
+.signupIndividual li.active a.ng-binding {
+  background-color: #8CBEB2 !important;
+}
+.signupIndividual button {
+  width: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 25px;
+  padding: 0;
+}
+.signupIndividual .dd-btn {
+  margin: 8px 0;
+  /*margin-left: 8%;*/
+}
+.signupIndividual .dd-msg {
+  height: 25px;
+  font-size: 11px;
+  font-weight: inherit;
+}
+.signupIndividual .uib-tabs-span .input-group span {
+  min-width: 150px;
+}
+.signupIndividual .uib-tabs-span button {
+  margin: 10px 0;
+}
+.signupIndividual .uib-tabs-span .row {
+  margin: 0px;
+}
+.signupIndividual fieldset {
+  /*        .col-md-8,.col-md-4{
+              margin: 0;
+              padding-left: 3px;
+              padding-right: 3px;
+          }*/
+}
+.signupIndividual fieldset .input-group span {
+  min-width: 90px;
+}
+.signupIndividual fieldset .input-group input, .signupIndividual fieldset .input-group select {
+  min-width: 100%;
+}
+.signupIndividual fieldset.fieldset-border {
+  border: 1px solid lightgray !important;
+  padding: 0 5px 5px 5px !important;
+  /*margin: 0 0 5px 0px !important;*/
+  /*-webkit-box-shadow:  0px 0px 0px 0px #000;*/
+  /*box-shadow:  0px 0px 0px 0px #000;*/
+  border-radius: 3px;
+  /*            border-color: #2196F3 !important;
+              color: #000!important;
+              background-color: #ddffff!important;
+              border-left: 6px solid #4286f4 !important;*/
+}
+.signupIndividual fieldset legend {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  border: none;
+  width: inherit;
+  margin-bottom: 0px;
+}
+.signupIndividual fieldset .title-center {
+  text-align: center !important;
+}
+.signupIndividual fieldset > .row {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+}
+.signupIndividual fieldset .reset-padding {
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.text-glue {
+  width: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+.app-table {
+  /*font-family:'Roboto Condensed',sans-serif;*/
+  font-size: 12px;
+}
+.app-table thead tr th {
+  background-color: #eee;
+  padding: 2px;
+  text-align: center;
+  border-bottom-width: 0;
+}
+.app-table tbody tr td {
+  padding: 2px;
+  text-align: center;
+}
+.app-table .nominee-span .input-group span {
+  min-width: 90px;
+}
+.app-table .nominee-span .input-group input, .app-table .nominee-span .input-group select {
+  min-width: 50px;
+}
+
+.basic-info .input-group span {
+  min-width: 90px;
+}
+.basic-info .input-group input, .basic-info .input-group select {
+  min-width: 50px;
+}
+
+.app-panel {
+  /*    hr{
+          padding: 0;
+          margin: 0;
+      }*/
+  /*    .row{
+          padding: 0;
+          margin: 0;
+      }*/
+}
+
+.panel-body {
+  /*    padding-bottom : 0px;*/
+  /*margin-bottom: 0;*/
+}
+
+/*# sourceMappingURL=style.css.map */
