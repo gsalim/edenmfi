@@ -1,0 +1,15 @@
+{
+    "elements": {
+        "ngcart-summary": {},
+        "ngcart-addtocart": {
+            "attributes": {
+                "quantity": {},
+                "price": {},
+                "name": {},
+                "id": {}
+            }
+        },
+        "ngcart-cart": {}
+    },
+    "attributes": {}
+}

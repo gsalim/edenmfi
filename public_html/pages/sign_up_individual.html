@@ -583,7 +583,7 @@
         <!--Demand Deposit-->
         <div class="panel panel-info app-panel">
             <div class="panel-heading">
-                <h5 class="panel-title">Demand Deposit</h5>
+                <h5 class="panel-title text-center">Demand Deposit</h5>
             </div>
 
             <!--Panel For Basic Info And Introducer-->
@@ -665,7 +665,6 @@
                                                     <input type="text" class="form-control">
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
                                     <div class="col-md-3">
@@ -1042,19 +1041,259 @@
                             </div>
                             <!--<p class="well well-sm">Owner Information</p>-->
 
-                            <div class="input-group">
-                                <div class="input-group-btn">
-                                    <button type="button" class="btn btn-primary">Action</button>
-                                    <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
-                                </div>
-
-                            </div>
-
-
                         </div>
                     </div><!--</.row>-->    
                 </uib-tab>
-                <uib-tab index="4" heading="KYC Profile">KYC Profile</uib-tab>
+                <uib-tab index="4" heading="KYC Profile">
+                    <p class="well well-sm">KYC Profile</p>
+
+                    <div class="row kyc-span gutter-10">
+                        <!--1.Occupation/Business-Individual/Organization-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Occupation/Business-Individual/Organization</legend>
+                                <div class="row gutter-10">
+                                    <div class="col-md-12">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Category</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Score</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+
+                        <!--2. Net Worth of the Customer-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Net Worth of the Customer</legend>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right">Amount (Taka)</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Rating</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+                        <!--3. Procurement of Accounts-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Procurement of Accounts</legend>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right">Procurement</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Rating</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+                    </div><!--.row-->
+                    <!--2nd Row-->
+                    <div class="row kyc-span gutter-10">
+                        <!--4.Estimated Monthly Transaction-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Estimated Monthly Transaction</legend>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Savings Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Current Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Rating</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+
+                        <!--5. No of Monthly Transaction-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">No of Monthly Transaction</legend>
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Savings Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Current Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Rating</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+                        <!--6. Monthly Cash Transaction-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Monthly Cash Transaction</legend>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Savings Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Current Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Rating</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+                    </div><!--.row-->
+
+                    <!--3rd Row-->
+                    <div class="row kyc-span gutter-10">
+                        <!--7.Estimated No of Monthly Cash Transaction-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">No. of Monthly Cash Transaction</legend>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Savings Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Current Account</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row gutter-10">
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Level</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-group input-group-sm">
+                                            <span class="input-group-addon text-right">Risk Rating</span>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                            </fieldset>    
+                        </div>
+
+                        <!--8. Overall Risk Grading-->
+                        <div class="col-md-4">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Overall Risk Grading</legend>
+
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right">Total Risk Rating</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right">Total Assessment</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </fieldset>    
+                        </div>
+                    </div><!--.row-->
+                </uib-tab>
                 <uib-tab index="5" heading="Documents">Documents</uib-tab>
             </uib-tabset>
         </div>
