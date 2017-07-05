@@ -588,7 +588,7 @@
 
             <!--Panel For Basic Info And Introducer-->
             <div class="panel-body">
-                <div class="row">
+                <div class="row gutter-10">
                     <!--Basic Info-->
                     <div class="col-md-8">
                         <div class="panel panel-info">
@@ -597,9 +597,9 @@
                             </div>
 
                             <div class="panel-body basic-info">
-                                <div class="row">
+                                <div class="row gutter-10">
                                     <div class="col-md-9">
-                                        <div class="row">
+                                        <div class="row gutter-10">
                                             <div class="col-md-6">
                                                 <div class="input-group input-group-sm">
                                                     <span class="input-group-addon text-right" id="sizing-addon3">A/C Type</span>
@@ -619,7 +619,7 @@
                                             <input type="text" class="form-control">
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row gutter-10">
                                             <div class="col-md-6">
                                                 <div class="input-group input-group-sm">
                                                     <span class="input-group-addon text-right" id="sizing-addon3">A/C Title</span>
@@ -634,7 +634,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="row">
+                                        <div class="row gutter-10">
                                             <div class="col-md-6">
                                                 <div class="input-group input-group-sm">
                                                     <span class="input-group-addon text-right" id="sizing-addon3">Currency</span>
@@ -652,7 +652,7 @@
                                             <span class="input-group-addon text-right" id="sizing-addon3">SBS2 Code</span>
                                             <input type="text" class="form-control">
                                         </div>
-                                        <div class="row">
+                                        <div class="row gutter-10">
                                             <div class="col-md-6">
                                                 <div class="input-group input-group-sm">
                                                     <span class="input-group-addon text-right" id="sizing-addon3">Ledger No</span>
@@ -727,8 +727,6 @@
                                 </div>
                                 <input type="text" readonly value="MESSAGE" class="form-control text-center dd-msg">
 
-
-
                             </div>     
                         </div> 
                     </div>
@@ -742,7 +740,7 @@
                 <uib-tab index="0" heading="Owner Information">
                     <p class="well well-sm">Owner Information</p>
                     <!--<div class="container">-->
-                    <div class="row">
+                    <div class="row gutter-10">
                         <div class="col-md-4">
                             <div class="input-group input-group-sm">
                                 <span class="input-group-addon text-right">Customer ID</span>
@@ -807,7 +805,7 @@
                 <uib-tab index="1" heading="Nominee Detail's">
                     <p class="well well-sm">Nominee Detail's</p>
                     <!--<div class="container">-->
-                    <div class="row">
+                    <div class="row gutter-10">
                         <div class="col-md-4 nominee-span">
                             <div class="input-group input-group-sm">
                                 <span class="input-group-addon text-right">Customer ID</span>
@@ -843,7 +841,7 @@
                                 <span class="input-group-addon text-right">AGE</span>
                                 <input type="text" class="form-control">
                             </div>
-                            
+
                             <div class="input-group input-group-sm">
                                 <span class="input-group-addon text-right">Relation</span>
                                 <input type="text" class="form-control">
@@ -853,22 +851,6 @@
                                 <span class="input-group-addon text-right">Share</span>
                                 <input type="text" class="form-control">
                             </div>
-                            
-<!--                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="input-group input-group-sm">
-                                        <span class="input-group-addon text-right" id="sizing-addon3">DOB</span>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="input-group input-group-sm">
-                                        <span class="input-group-addon text-right" id="sizing-addon3">Age</span>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                            </div>-->
-
                             <div class="row text-center">
                                 <button type="button" class="btn btn-default btn-sm">Add</button>
                                 <button type="button" class="btn btn-default btn-sm">Clear</button>
@@ -913,8 +895,165 @@
                     </div>
                     <!--</div>-->
                 </uib-tab>
-                <uib-tab index="2" heading="Operator Information">Operator Information</uib-tab>
-                <uib-tab index="3" heading="Transaction Profile">Transaction Profile</uib-tab>
+                <uib-tab index="2" heading="Operator Information">
+                    <p class="well well-sm">Operator Information</p>
+                    <!--<div class="container">-->
+                    <div class="row gutter-10">
+                        <div class="col-md-4 nominee-span">
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Operator Name</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Present Address</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Permanent Address</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Operator Mandatory</span>
+                                <select class="form-control">
+                                    <option value="y">Yes</option>
+                                    <option value="n">No</option>
+                                </select>
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Effective Date</span>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Operator Status</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="row text-center">
+                                <button type="button" class="btn btn-default btn-sm">Add</button>
+                                <button type="button" class="btn btn-default btn-sm">Clear</button>
+                                <button type="button" class="btn btn-default btn-sm">View Data</button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped table-condensed app-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Operator Name</th>
+                                            <th>Present Address</th>
+                                            <th>Permanent Address</th>
+                                            <th>Operator Mandatory</th>
+                                            <th>Effictive Date</th>
+                                            <th>Operator Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Abdur Rahim</td>
+                                            <td>35 Merun</td>
+                                            <td>Kaharol, Dinajpur</td>
+                                            <td>Yes</td>
+                                            <td>01.01.2017</td>
+                                            <td>Active</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--<p class="well well-sm">Owner Information</p>-->
+                        </div>
+                    </div>
+                    <!--</row>-->
+                </uib-tab>
+                <uib-tab index="3" heading="Transaction Profile">
+                    <p class="well well-sm">Transaction Profile</p>
+                    <!--<div class="container">-->
+                    <div class="row gutter-10">
+                        <div class="col-md-4 nominee-span">
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Declaration Date</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Transaction Type</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Description</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Voucher Type</span>
+                                <select class="form-control">
+                                    <option value="cr">Credit</option>
+                                    <option value="dr">Debit</option>
+                                </select>
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">No.Trans/Month</span>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Max Amt./Trans</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Total Amt/Month</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Source of Fund</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="row text-center">
+                                <button type="button" class="btn btn-default btn-sm">Add</button>
+                                <button type="button" class="btn btn-default btn-sm">Clear</button>
+                                <button type="button" class="btn btn-default btn-sm">View Data</button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped table-condensed app-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Declaration Date</th>
+                                            <th>Transaction Type</th>
+                                            <th>Description</th>
+                                            <th>Voucher Type</th>
+                                            <th>No.Trans/Month</th>
+                                            <th>Max Amt./Trans</th>
+                                            <th>Total Amt/Month</th>
+                                            <th>Source of Fund</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>01.01.2017</td>
+                                            <td>1</td>
+                                            <td>Cash Deposit</td>
+                                            <td>Credit</td>
+                                            <td>5</td>
+                                            <td>50,000.00</td>
+                                            <td>250,000.00</td>
+                                            <td>Salary</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--<p class="well well-sm">Owner Information</p>-->
+
+                            <div class="input-group">
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-primary">Action</button>
+                                    <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div><!--</.row>-->    
+                </uib-tab>
                 <uib-tab index="4" heading="KYC Profile">KYC Profile</uib-tab>
                 <uib-tab index="5" heading="Documents">Documents</uib-tab>
             </uib-tabset>
