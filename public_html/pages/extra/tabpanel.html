@@ -1,0 +1,209 @@
+        <fieldset class="fieldset-border">
+            <legend class="fieldset-border">Demand Deposit</legend>
+
+            <div class="row">
+                <!--<legend class="fieldset-border">Basic Information</legend>-->
+                <div class="col-md-9">
+
+                    <fieldset class="fieldset-border">
+                        <legend class="fieldset-border title-center">Basic Information</legend>
+
+                        <div class="col-md-9 reset-padding">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">A/C Type</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">A/C No</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right" id="sizing-addon3">Customer</span>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">A/C Title</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">Int. Rate</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">Currency</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">Open Date</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right" id="sizing-addon3">SBS2 Code</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">Ledger No</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group input-group-sm">
+                                        <span class="input-group-addon text-right" id="sizing-addon3">Opt. Mode</span>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 reset-padding">
+                            <fieldset class="fieldset-border">
+                                <legend class="fieldset-border title-center">Exp. For Non Deduction</legend>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right" id="sizing-addon3">Interest</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right" id="sizing-addon3">Excise Duty</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right" id="sizing-addon3">Service Crg</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right" id="sizing-addon3">Inc Charge</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-addon text-right" id="sizing-addon3">Tax Dedc.</span>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </fieldset>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <!--Introducer-->
+                <div class="col-md-3">
+
+                    <fieldset class="fieldset-border">
+                        <legend class="fieldset-border title-center">Introducer</legend>
+                        <div class="input-group input-group-sm">
+                            <span class="input-group-addon text-right" id="sizing-addon3">Acc.No</span>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="input-group input-group-sm">
+                            <span class="input-group-addon text-right" id="sizing-addon3">Name</span>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="input-group input-group-sm">
+                            <span class="input-group-addon text-right" id="sizing-addon3">Others</span>
+                            <input type="text" class="form-control">
+                        </div>
+                    </fieldset>
+
+                    <div class="text-center dd-btn">
+                        <button type="button" class="btn btn-default btn-sm">Save</button>
+                        <button type="button" class="btn btn-default btn-sm">Clear</button>
+                    </div>
+                    <input type="text" readonly value="MESSAGE" class="form-control text-center dd-msg">
+                </div><!--End of Introducer-->
+
+            </div>
+
+            <uib-tabset active="activeJustified" justified="true" class="uib-tabs-span">
+                <uib-tab index="0" heading="Owner Information">
+                    <p class="well well-sm">Owner Information</p>
+                    <!--<div class="container">-->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Customer ID</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Customer Name</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Owner Share</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Present Property Value</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right">Nature of Ownership</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="input-group input-group-sm">
+                                <span class="input-group-addon text-right" id="sizing-addon3">Description</span>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="row text-center">
+                                <button type="button" class="btn btn-default btn-sm">Add</button>
+                                <button type="button" class="btn btn-default btn-sm">Clear</button>
+                                <button type="button" class="btn btn-default btn-sm">View Data</button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-striped table-condensed app-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Share</th>
+                                            <th>Property</th>
+                                            <th>Ownership</th>
+                                            <th>Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>001</td>
+                                            <td>Arifur Rahman</td>
+                                            <td>100</td>
+                                            <td>-</td>
+                                            <td>1</td>
+                                            <td>1st Applicant</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--</div>-->
+                </uib-tab>
+                <uib-tab index="1" heading="Nominee Detail's">Nominee Detail's</uib-tab>
+                <uib-tab index="2" heading="Operator Information">Operator Information</uib-tab>
+                <uib-tab index="3" heading="Transaction Profile">Transaction Profile</uib-tab>
+                <uib-tab index="4" heading="KYC Profile">KYC Profile</uib-tab>
+                <uib-tab index="5" heading="Documents">Documents</uib-tab>
+            </uib-tabset>
+        </fieldset><!--Demand Deposit-->

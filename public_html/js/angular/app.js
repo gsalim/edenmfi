@@ -10,6 +10,9 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
                 }).state('benefits', {
                     url: "/benefits",
                     templateUrl: "pages/benefits.html"
+                }).state('home2', {
+                    url: "/home2",
+                    templateUrl: "pages/home2.html"
                 }).state('contact_us', {
                     url: "/contact_us",
                     templateUrl: "pages/contact_us.html"

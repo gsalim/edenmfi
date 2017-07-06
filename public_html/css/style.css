@@ -16,12 +16,14 @@
 }
 
 #banner {
-  background-image: url("../images/banner_bg.png");
+  /*Old This link*/
+  /*background-image: url('../images/banner_bg.png');*/
+  /*background-image: url('../images/banner_image2.png');*/
   margin-top: 0px;
   color: white;
-}
-#banner .row {
-  margin: 10px 0px 50px 0px;
+  /*    .row{
+          margin: 10px 0px 50px 0px;
+      }*/
 }
 #banner ul {
   list-style: none;
@@ -269,9 +271,27 @@ Reference: http://arnique.net/web-design/58/a-quick-guide-to-changing-bootstraps
 .signupIndividual .kyc-span .input-group span {
   min-width: 115px;
 }
+.signupIndividual .kyc-span .input-group input {
+  min-width: 50px;
+}
 .signupIndividual .kyc-span fieldset {
   /*margin-top: 3px;*/
   margin-bottom: 10px;
+}
+.signupIndividual .kyc-span .spl {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  height: 17px;
+  background-color: inherit;
+  padding-top: -1px;
+}
+.signupIndividual .kyc-span .photo-well {
+  /*width: 200px;*/
+  height: 300px;
+}
+.signupIndividual .main-btn {
+  margin-bottom: 15px;
 }
 .signupIndividual fieldset {
   /*        .col-md-8,.col-md-4{
@@ -357,22 +377,6 @@ Reference: http://arnique.net/web-design/58/a-quick-guide-to-changing-bootstraps
 }
 .basic-info .input-group input, .basic-info .input-group select {
   min-width: 50px;
-}
-
-.app-panel {
-  /*    hr{
-          padding: 0;
-          margin: 0;
-      }*/
-  /*    .row{
-          padding: 0;
-          margin: 0;
-      }*/
-}
-
-.panel-body {
-  /*    padding-bottom : 0px;*/
-  /*margin-bottom: 0;*/
 }
 
 /*# sourceMappingURL=style.css.map */

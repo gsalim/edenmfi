@@ -116,13 +116,34 @@
             span{
                 min-width: 115px;
             }
+            input{
+                min-width: 50px;
+            }
         }
         fieldset{
             /*margin-top: 3px;*/
             margin-bottom: 10px;
         }
 
+        .spl{
+            padding: 0;
+            margin: 0;
+            border: 0px;
+            height: 17px;
+            background-color: inherit;
+            padding-top: -1px;
+        }
+        .photo-well{
+            /*width: 200px;*/
+            height: 300px;
+        }
+
     }
+
+    .main-btn{
+        margin-bottom: 15px;
+    }
+    
     fieldset {
         .input-group{
             span{
@@ -235,24 +256,4 @@
             min-width: 50px;
         }
     }
-}
-
-
-
-
-
-.app-panel{
-    /*    hr{
-            padding: 0;
-            margin: 0;
-        }*/
-    /*    .row{
-            padding: 0;
-            margin: 0;
-        }*/
-}
-
-.panel-body {
-    /*    padding-bottom : 0px;*/
-    /*margin-bottom: 0;*/
 }
