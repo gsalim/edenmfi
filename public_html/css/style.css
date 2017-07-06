@@ -197,13 +197,6 @@ Reference: http://arnique.net/web-design/58/a-quick-guide-to-changing-bootstraps
           float:left;
   }*/
   /*https://stackoverflow.com/questions/16852484/use-fieldset-legend-with-bootstrap*/
-  /*    .kyc-span2{
-          .input-group{
-              span{
-                  min-width: 110px;
-              }
-          }
-      }*/
   /*    .panel-default{
          width: inherit;
       }*/
@@ -270,8 +263,15 @@ Reference: http://arnique.net/web-design/58/a-quick-guide-to-changing-bootstraps
 .signupIndividual .uib-tabs-span .row {
   margin: 0px;
 }
+.signupIndividual .uib-tabs-span table {
+  margin-top: 3px;
+}
 .signupIndividual .kyc-span .input-group span {
   min-width: 115px;
+}
+.signupIndividual .kyc-span fieldset {
+  /*margin-top: 3px;*/
+  margin-bottom: 10px;
 }
 .signupIndividual fieldset {
   /*        .col-md-8,.col-md-4{
