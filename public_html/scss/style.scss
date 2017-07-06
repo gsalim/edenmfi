@@ -106,6 +106,9 @@
         .row{
             margin: 0px;
         }
+        table{
+            margin-top: 3px;
+        }
     }
 
     .kyc-span{
@@ -114,14 +117,12 @@
                 min-width: 115px;
             }
         }
-    }
-/*    .kyc-span2{
-        .input-group{
-            span{
-                min-width: 110px;
-            }
+        fieldset{
+            /*margin-top: 3px;*/
+            margin-bottom: 10px;
         }
-    }*/
+
+    }
     fieldset {
         .input-group{
             span{
