@@ -1,4 +1,4 @@
-var app = angular.module('app', ['ui.router','ui.bootstrap']);
+var app = angular.module('app', ['ui.router','ui.bootstrap','ngAnimate']);
 
 app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise("/home");
@@ -36,3 +36,4 @@ app.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $u
                 });
     }]);
     
+//    http://onehungrymind.com/build-sweet-photo-slider-angularjs-animate/
