@@ -17,7 +17,7 @@
         <!--https://bootsnipp.com/snippets/XMxjo-->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
-                
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -34,10 +34,47 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
                         <li><a data-ui-sref="home2">Home2</a></li>
+
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Go Green<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a data-ui-sref="benefits">Benefits</a></li>
+                                <!--<li><a data-ui-sref="benefits">Benefits</a></li>-->
+                                <!--https://bootsnipp.com/snippets/featured/multi-level-dropdown-menu-bs3-->
+
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" data-ui-sref="benefits">Benefits</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Cash In</a></li>
+                                        <li><a href="#">Cash Out (From Agent)</a></li>
+                                        <li><a href="#">Send Money</a></li>
+
+                                        <li class="dropdown-submenu">
+                                            <a href="#">Payment</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Store Payments</a></li>
+                                                <li><a href="#">Educational Institute</a></li>
+                                                <li><a href="#">NGO</a></li>
+                                                <li><a href="#">Restaurant & Dinning</a></li>
+                                                <li><a href="#">Hotels</a></li>
+                                                <li><a href="#">Travel Agents</a></li>
+                                                <li><a href="#">Internet Provider</a></li>
+                                                <li><a href="#">Utility Bill Pay</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#">Buy Airtime</a></li>
+                                        <li><a href="#">Remittance</a></li>
+                                        <li><a href="#">Interest on Savings</a></li>
+                                        <li><a href="#">Train Ticketing</a></li>
+                                        <li><a href="#">Google Play</a></li>
+                                        <li><a href="#">I-Tunes</a></li>
+                                        <li><a href="#">City Corporation Bill</a></li>
+                                        <li><a href="#">Bus Ticket</a></li>
+                                        <!--<li><a href="#">-</a></li>-->
+                                    </ul>
+                                </li>
+
+
                                 <li><a href="#">Overview</a></li>
                                 <li><a href="#">Offers</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
@@ -47,15 +84,44 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Other Product <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Financial Product <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a data-ui-sref="loan_product">Loan Products</a></li>
-                                <li><a href="#">Savings Products</a></li>
+                                <!--<li><a data-ui-sref="loan_product">Loan Products</a></li>-->
+
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" data-ui-sref="loan_product">Loan Products</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Loan For Women</a></li>
+                                        <li><a href="#">Small Enterprise Loan</a></li>
+                                        <li><a href="#">Agricultural Loan</a></li>
+                                        <li><a href="#">Poverty Elevation  Loan</a></li>
+                                        <li><a href="#">Youth Loan</a></li>
+                                        <li><a href="#">Rural Micro Finance</a></li>
+                                        <li><a href="#">Urban Micro Finance</a></li>
+                                        <li><a href="#">Seasonal Micro Finance</a></li>
+                                        <li><a href="#">Disaster Management Micro Finance</a></li>
+                                        <li><a href="#">Loan for Digitalization</a></li>
+                                        <li><a href="#">Salary Against Loan</a></li>
+                                        <li><a href="#">Migration Loan</a></li>
+                                        <li><a href="#">Student Loan</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" data-ui-sref="loan_product">Savings Products</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Normal Savings Account</a></li>
+                                        <li><a href="#">DPS</a></li>
+                                        <li><a href="#">Capital Buildup Savings Fund</a></li>
+                                        <li><a href="#">FDR</a></li>
+                                    </ul>
+                                </li>
+                                
                                 <li><a href="#">Insurance Products</a></li>
                                 <!--<li role="separator" class="divider"></li>-->
-                                <li><a href="#">Education Support System</a></li>
+                                <!--<li><a href="#">Education Support System</a></li>-->
                                 <!--<li role="separator" class="divider"></li>-->
-                                <li><a href="#">Capacity Building on Financial Education & Client Protection</a></li>
+                                <!--<li><a href="#">Capacity Building on Financial Education & Client Protection</a></li>-->
                             </ul>
                         </li>
                     </ul>
@@ -128,11 +194,13 @@
 
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/angular/angular.js"></script>
-        
+
+        <script src="js/angular/angular.min.js"></script>
+
         <script src="js/angular/angular-ui-router.js"></script>
         <script src="js/angular/ui-bootstrap-tpls-2.5.0.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular-animate.min.js"></script>
+        <script src="js/angular/angular-animate.min.js"></script>
+
         <script src="js/angular/app.js"></script>
         <script src="js/angular/CarouselDemoCtrl.js"></script>
     </body>
